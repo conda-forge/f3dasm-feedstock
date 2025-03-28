@@ -1,5 +1,5 @@
 {% set name = "f3dasm" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/f3dasm-{{ version }}.tar.gz
-  sha256: 6523ef7f86e5eef5a87622002cff349db83ce96a8b9883bce82df3c864f5852f
+  sha256: 9619dc3568fa416a49a7ae135c73630fa12a54ca3011ef5b29d3b2c7fccb0895
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - numpy <2.0.0
+    - numpy
     - scipy
     - pandas
     - xarray
