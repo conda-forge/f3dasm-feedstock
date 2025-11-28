@@ -29,7 +29,7 @@ requirements:
     - matplotlib-base
     - hydra-core
     - pathos >=0.3.0
-    - salib
+    - salib >=1.5.2
     - filelock
 
 test:
