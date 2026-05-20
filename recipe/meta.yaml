@@ -1,5 +1,5 @@
 {% set name = "f3dasm" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/f3dasm-{{ version }}.tar.gz
-  sha256: 90b578b0286af84ace483d7084dec1eeeecddaa43f7ad6657e43d2b58b0aa46b
+  sha256: 2fc0e382df238c30f1020ddf7ed9326d79ca0ef70dcdcb8d83e811dc5bf71065
 
 build:
   noarch: python
